@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <title>Halaman 1</title>
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Playfair+Display%3A400%2C800%2C900"
+    />
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Source+Sans+Pro%3A400%2C800%2C900"
+    />
+    <link rel="stylesheet" href="./styles/halaman-1.css" />
+    <!-- Menambahkan link CSS Bootstrap -->
+    <link
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container-lg Halaman1Fix">    
+        <div class="row navbar">
+            <p class="col-md-1 logo">KHFDZ</p>
+            <p class="col-md-2 about" onclick="scrollToAbout()">About Me</p>
+            <p class="col-md-1 resume" onclick="scrollToResume()">Resume</p>
+            <p class="col-md-1 work" onclick="scrollToWork()">Work</p>
+            <!-- <p class="col-md-2 ">Get in Touch</p> -->
+            <button class="col-md-2 btnGetInTouch" onclick="scrollToGetInTouch()">Get in Touch</button>
+            
+        </div>
+    </div>
+
+    <div class="container-lg content">
+        <div class="row isiContent1">
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>
+            <p>PORTFOLIO</p>  
+            <p>PORTFOLIO</p>
+            <img class=foto1 src="./images/foto1.png" alt="Foto Profil 1">
+
+            <div class="social-links">
+                <a href="https://github.com/khfdz" class="social-link"><br>GIT: /khfdz</a>
+                <a href="https://www.linkedin.com/in/khfdz/" class="social-link">LI: /khfdz</a>
+                <a href="https://www.behance.net/khfdz" class="social-link">BE: /khfdz</a>
+                <a href="https://www.instagram.com/khfdz/" class="social-link">IG: /@khfdz</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-lg content2">
+        <div class="row isiContent2">
+          <button class="btnGoDown" onclick="scrollToAbout()">Go Down !</button>
+          <p class="teks1">I have a deep love for the arts and am committed to expressing <br>that passion through my website, creating captivating and meaningful <br> content that resonates with viewers and sparks creativity.</p>
+        </div>
+    </div>
+
+    <!-- Halaman 2 -->
+    <div class="container-lg Halaman2Fix">    
+        <div class="row navbar halDua">
+            <p class="col-md-1 logoDua">KHFDZ</p>
+            <p class="col-md-2 aboutDua" onclick="scrollToAbout()">About Me</p>
+            <p class="col-md-1 resumeDua" onclick="scrollToResume()">Resume</p>
+            <p class="col-md-1 workDua" onclick="scrollToWork()">Work</p>
+            <!-- <p class="col-md-2 ">Get in Touch</p> -->
+            <button class="col-md-2 btnGetInTouch" onclick="scrollToGetInTouch()">Get in Touch</button>
+        </div>
+    </div>
+
+    <div class="container-lg contentHal2">
+        <div class="row isiContentHal2">
+
+            <img class=foto2 src="./images/foto3.png" alt="Foto Profil 2">
+
+            <p class="halo">Hello, <br> I'm Dhika </p>
+            <p class="halo2">"I'm a <span>fullstack website developer</span> and a <span> photographer</span>, residing in Indonesia. I hold a bachelor's degree in Computer Science, and I'm passionate about creating stunning digital experiences and captivating visual stories."</p>
+            <p class="halo3">Dhika Hafidz <br> Karawang, 25 Feb 2000</p>
+            <button class="btnContact">CONTACT</button>
+
+            <div class="contact-form" style="display: none;">
+                <form id="contactForm">
+                    <input type="text" id="fullName" name="fullName" placeholder="Full Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                    <div class="contact-buttons">
+                        <button type="submit" class="btnContactMe">Contact Me</button>
+                        <button class="btnCloseForm">Close</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+<!-- Halaman 2 -->
+
+
+<!-- Halaman 3 -->
+<div class="container-lg Halaman3Fix">    
+    <div class="row navbar halTiga">
+        <p class="col-md-1 logo" >KHFDZ</p>
+        <p class="col-md-2 about" onclick="scrollToAbout()">About Me</p>
+        <p class="col-md-1 resume" onclick="scrollToResume()">Resume</p>
+        <p class="col-md-1 work" onclick="scrollToWork()">Work</p>
+        <!-- <p class="col-md-2 ">Get in Touch</p> -->
+        <button class="col-md-2 btnGetInTouch" onclick="scrollToGetInTouch()">Get in Touch</button>
+        
+    </div>
+</div>
+
+<div class="container-lg contentHal3">
+    <div class="educationContainer">
+        <h2 class="textEducation">Education</h2>
+        <div class="education">
+            <div class="tahunSekolah">
+                <p>2015 - 2018</p>
+                <p>2018 - 2023</p>
+                <p>2023 - 2024</p>
+            </div>
+            <div class="namaSekolah">
+                <p>High School (SMAN 3 Karawang) <br><a> Science</a></p>
+                <p>University Buana Perjuangan of Karawang <br><a>Computer Science</a></p>
+                <p>Eduwork <br><a>Full Stack MERN</a></p>
+            </div>
+        </div>
+    </div>
+    
+    
+
+    <div class="experienceContainer">
+        <h2 class="textEducation">Experience</h2>
+        <div class="education">
+            <div class="tahunSekolah">
+                <p>2016 - 2017</p>
+                <p>2018 - 2022</p>
+                <p>2019 - 2020</p>
+                <p>2021</p>
+                <p>2022 - Present</p>
+            </div>
+            <div class="namaSekolah">
+                <p>Rapatronic Photography SMAN 3 Karawang <br><a>Event Documentation Section Head</a></p>
+                <p>Mapro UBP <br><a>Presenter and Event Documenter</a></p>
+                <p>Creative Team at Butik Rumah Cantik <br><a>Photographer and Editor</a></p>
+                <p>Internship at Prisma Computer <br><a>- Installed and maintained CCTV</a><br><a>- Assisted store operations</a></p>
+                <p>Part-time Retail Assistant at Toko Zidan <br><a>Assisted store operations</a></p>
+            </div>
+        </div>
+    </div>
+        
+        <a href="https://drive.google.com/file/d/1mCne0cHBVBb3oYPOeV5wNw9bxjRIrlqV/view?usp=drive_link" class="btnDownload" target="_blank">Download CV</a>
+
+        
+
+        <!-- <div class="container-lg skills"> -->
+            <div class="icons">
+ 
+                <img src="./images/icon/figma.png" style="margin-top: 30px; width: 50px;">
+                <img src="./images/icon/lightroom.png " style="margin-top: 35px; width: 60px;">
+                <img src="./images/icon/photoshop.png" style="margin-top: 32px; width: 65px;">
+                <img src="./images/icon/vscode.png" style="margin-top: 35px; width: 62px;">
+                <img src="./images/icon/mongodb.png" style="margin-top: 35px; width: 60px;">
+                <img src="./images/icon/expressjs.png" style="margin-top: 52px; width: 60px;">
+                <img src="./images/icon/react.png" style="margin-top: 35px; width: 60px;">
+                <img src="./images/icon/nodejs.png" style="margin-top: 35px; width: 65px;">
+                <img src="./images/icon/javascript.png" style="margin-top: 35px; width: 60px;">
+                <img src="./images/icon/html.png" style="margin-top: 35px; width: 60px;">
+                <img src="./images/icon/css.png" style="margin-top: 35px; width: 60px;">
+                <img src="./images/icon/gemini.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/bing.png" style="margin-top: 10px; width: 43px;">
+                <img src="./images/icon/chat.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/codemium.png" style="margin-top: 13px; width: 62px;">
+                <img src="./images/icon/boot.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/python.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/postman.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/git.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/github.png"style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/mysql.png" style="margin-top: 15px; width: 60px;">
+                <img src="./images/icon/arduino.png" style="margin-top: 30px; width: 60px;">
+        </div>
+        <label class="skills">Skills of Mine</label>
+        
+
+</div>
+
+<!-- Halaman 3 -->
+
+<!-- Halaman 4 -->
+
+<div class="container-lg Halaman4Fix">    
+    <div class="row navbar halEmpat">
+        <p class="col-md-1 logoEmpat">KHFDZ</p>
+        <p class="col-md-2 aboutEmpat" onclick="scrollToAbout()">About Me</p>
+        <p class="col-md-1 resumeEmpat" onclick="scrollToResume()">Resume</p>
+        <p class="col-md-1 workEmpat" onclick="scrollToWork()">Work</p>
+        <!-- <p class="col-md-2 ">Get in Touch</p> -->
+        <button class="col-md-2 btnGetInTouch" onclick="scrollToGetInTouch()">Get in Touch</button>
+    </div>
+</div> 
+
+<div class="container-lg content4">
+    <p class="myLatest">My Latest Project</p>
+    <button class="btnPhotography active" id="btnPhotography">Photography</button>
+    <button class="btnWebDev" id="btnWebDev">Website</button>
+    
+
+    <div class="photography">
+        <div class="row isiContent4">
+
+            <div class="card">
+                <img src="./images/photo1.jpg" alt="Image" class="card-img-top">
+                <div class="card-overlay">
+                    <h5 class="card-title">Ramdhani & Riri</h5>
+                    <!-- <p>Description</p> -->
+                    <a href="https://www.behance.net/gallery/160516305/Ramdhani-Riri" target="_blank" class="">View Details</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/photo2.jpg" alt="Image" class="card-img-top">
+                <div class="card-overlay">
+                    <h5 class="card-title">Salsa Nur Afifah</h5>
+                    <a href="https://www.behance.net/gallery/159942273/Salsa-Nur-Afifah" target="_blank" class="">View Details</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="./images/photo4.jpg" alt="Image" class="card-img-top">
+                <div class="card-overlay">
+                    <h5 class="card-title">Nadiya Fitri Fauziah</h5>
+                    <a href="https://www.behance.net/gallery/159779475/Wisuda-Nadiya" target="_blank" class="">View Details</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="./images/photo3.jpg" alt="Image" class="card-img-top">
+                <div class="card-overlay">
+                    <h5 class="card-title">Achmad <br>&<br> Cantika</h5>
+                    <a href="https://www.behance.net/gallery/159843067/Wisuda-Achmad-Cantika" target="_blank" class="">View Details</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="webDev">
+        <div class="row isiContent4">
+
+            <div class="card">
+                <img src="./images/web1.jpg" alt="Image" class="card-img-top">
+                <div class="card-overlay">
+                    <h5 class="card-title">Manulife Report</h5>
+                    <!-- <p>Description</p> -->
+                    <a href="https://tugas-pak-rizky.vercel.app/" target="_blank" class="">View Details</a>
+
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Halaman 4 -->
+
+    
+
+</body>
+
+<script>
+    const btnContact = document.querySelector('.btnContact');
+    const contactForm = document.querySelector('.contact-form');
+    const btnCloseForm = document.querySelector('.btnCloseForm');
+
+    btnContact.addEventListener('click', () => {
+        contactForm.style.display = 'block';
+    });
+
+    btnCloseForm.addEventListener('click', () => {
+        contactForm.style.display = 'none';
+    });
+
+    
+</script>
+
+<script>
+    // Get the button elements
+    const btnPhotography = document.getElementById('btnPhotography');
+    const btnWebDev = document.getElementById('btnWebDev');
+
+    // Get the content divs
+    const photographyDiv = document.querySelector('.photography');
+    const webDevDiv = document.querySelector('.webDev');
+
+    // Add event listener for Photography button
+    btnPhotography.addEventListener('click', function() {
+        photographyDiv.style.display = 'block';
+        webDevDiv.style.display = 'none';
+    });
+
+    // Add event listener for Web Development button
+    btnWebDev.addEventListener('click', function() {
+        photographyDiv.style.display = 'none';
+        webDevDiv.style.display = 'block';
+    });
+</script>
+
+<script>
+document.getElementById('btnWebDev').addEventListener('click', function() {
+    document.getElementById('btnWebDev').classList.add('active');
+    document.getElementById('btnPhotography').classList.remove('active');
+});
+
+document.getElementById('btnPhotography').addEventListener('click', function() {
+    document.getElementById('btnPhotography').classList.add('active');
+    document.getElementById('btnWebDev').classList.remove('active');
+});
+
+</script>
+
+<script>
+    function scrollToAbout() {
+    // Menggunakan smooth scroll untuk animasi
+    document.querySelector('.container-lg.Halaman2Fix').scrollIntoView({
+        behavior: 'smooth'
+    });}
+
+    function scrollToResume() {
+    // Menggunakan smooth scroll untuk animasi
+    document.querySelector('.container-lg.Halaman3Fix').scrollIntoView({
+        behavior: 'smooth'
+    });}
+    
+
+    function scrollToWork() {
+    // Menggunakan smooth scroll untuk animasi
+    document.querySelector('.container-lg.Halaman4Fix').scrollIntoView({
+        behavior: 'smooth'
+    });}
+    
+
+    function scrollToGetInTouch() {
+    // Menggunakan smooth scroll untuk animasi
+    document.querySelector('.container-lg.Halaman1Fix').scrollIntoView({
+        behavior: 'smooth'
+    });
+    }
+
+
+</script>
+
+</html>

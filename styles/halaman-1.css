@@ -1,0 +1,734 @@
+/* styles/halaman-1.css */
+
+/* Reset default browser styles */
+body, h1, h2, p, button {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menambahkan font Playfair Display */
+
+.about,
+.resume,
+.work {
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+.navbar {
+    background: #314933;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 350px;
+    width: 120px; 
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .about {
+    color: white;
+    font-size: 20px;
+    margin-right: -180px;
+    font-weight: 100;
+    
+}
+
+.navbar .resume {
+    color: white;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px
+    ;
+}
+
+.navbar .work {
+    color: white;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px;
+}   
+
+.navbar .btnGetInTouch {
+    font-family: 'Playfair Display', serif;
+    margin-top: -15px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    width: 30%;
+    border: none;
+    margin-right: 30px;
+}
+
+.content {
+    height: 420px;
+    position: relative;
+    color: #314933;
+    background-color: #314933;
+}
+
+.content p {
+    position: absolute; 
+    top: 0;
+    left: 0; 
+    padding: 10px;
+}
+
+.content p:nth-child(1) {
+    z-index: 1;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: #314933; 
+    margin-left: 90px;
+    margin-top: -10px;
+}
+
+.content p:nth-child(2) {
+    z-index: 2; 
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: #314933; 
+    margin-left: 90px;
+    margin-top: 92px;
+}
+
+.content p:nth-child(3) {
+    z-index: 3;
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: #314933; 
+    margin-left: 90px;
+    margin-top: 194px;
+
+}
+
+.content p:nth-child(4) {
+    z-index: 3; 
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    -webkit-text-stroke: 1px #AF6536; 
+    color: transparent; 
+    margin-left: 90px;
+    margin-top: 297px;
+}
+
+.content p:nth-child(5) {
+    z-index: 5; 
+    font-weight: 800;
+    font-family: 'Playfair Display', serif;
+    font-size: 140px;
+    color: #D2CABA; 
+    margin-left: 90px;
+    margin-top: -35px;
+}
+
+.foto1 {
+    height: 430px;
+    margin-left: 680px;
+    margin-top: 90px;
+    z-index: 4;
+}
+
+.social-links {
+    background-color: #314933;
+    padding: 10px;
+    display: table-cell;
+    z-index: 6;
+    height: 180px;
+    width: 200px;
+    vertical-align: middle;
+    text-align: left; 
+    margin-top: 240px;
+    margin-left: -750px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    text-align: left;
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding-left: 10px; 
+    line-height: 20px; 
+    font-size: 28px;
+}
+
+.social-link:hover {
+    color: #EEAA15; 
+}
+
+.content2 {
+    height: 200px;
+    position: relative; 
+    color: black;
+    background-color: black;
+}
+
+.btnGoDown {
+    margin-left: 50px;
+    margin-top: 104px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    width: 11%;
+    border: none;
+}
+
+.teks1 {
+    z-index: 7;
+    color: white;
+    text-align: justify;
+    margin-left: 450px;
+    margin-top: -60px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+/* halaman1 */
+
+
+/* halaman2 */
+.halDua{
+    background: #EDE5D8;
+}
+
+.aboutDua,
+.resumeDua,
+.workDua {
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .logoDua {
+    color: #1E180A;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 350px; 
+    width: 120px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .aboutDua {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -180px;
+    font-weight: 100;
+    font-weight: bold;
+}
+
+.navbar .resumeDua {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+
+}
+
+.navbar .workDua {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px;
+}  
+
+.navbar .btnGetInTouch {
+    margin-top: -15px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    width: 30%;
+    border: none;
+    margin-right: 30px;
+}
+
+.contentHal2 {
+    height: 620px;
+    position: relative; 
+    background-color: #EDE5D8;
+}
+
+
+.foto2 {
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 35%;
+}
+
+.isiContentHal2 {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    padding: 10px;
+    font-size: 50px;
+}
+
+.halo {
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    margin-left: 30px;
+    margin-top: 30px;
+    line-height: 100px;
+    font-weight: 600;
+    color: #201A0C;
+}
+
+.halo2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 535px;
+    margin-top: 250px;
+    font-weight: 600;
+    text-align: justify;
+    width: 48%;
+}
+
+.halo2 span {
+    font-family: 'Playfair Display', serif;
+    color: #F25B32; 
+    font-weight: bolder;
+}
+
+.btnContact {
+    font-family: 'Playfair Display', serif;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 25px;
+    font-weight: bold;
+    width: 15%;
+    height: 70px;
+    border: none;
+    margin-left: 973px;
+    margin-top: 1px;
+}
+
+.halo3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    margin-left: 180px;
+    margin-top: -85px;
+    font-weight: 500;
+    color: #201A0C;
+}
+
+.contact-form {
+    font-family: 'Playfair Display', serif;
+    z-index: 8;
+    display: flex;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: -230.3px;
+    margin-left: 610px;
+    width: 350px;
+    height: 230px;
+    font-size: 20px;
+    background-color: #EEAA15;
+}
+
+.contact-form form {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+}
+
+.contact-form input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #EDE5D8;
+}
+
+.contact-form textarea {
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #EDE5D8;
+}
+
+.contact-buttons {
+    margin-left: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContactMe {
+    width: 130px;
+    border: none;
+    background-color: #AF6536;
+    color: #EDE5D8;
+    font-weight: bold;
+}
+
+.btnCloseForm {
+    border: none;
+    width: 130px;
+    background: #F25B32;
+    color: #EDE5D8;
+    font-weight: bold;
+}
+/* halaman2 */
+
+
+/* halaman3 */
+
+.halTiga .resume{
+    font-weight: bolder;
+}
+
+.contentHal3 {
+    height: 620px;
+    position: relative; 
+    background-color: #314933;
+}
+
+/* halaman3 */
+
+.educationContainer {
+    margin-left: -15px;
+    margin-bottom: 50px;
+    background: #EDE5D8;
+    width: 500px;
+    height: 260px;
+}
+
+.textEducation {
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 130px;
+    color: #201A0C;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.tahunSekolah, .namaSekolah {
+    width: 400px;
+    margin-left: -40px;
+}
+
+.tahunSekolah p {
+    margin-top: -1px;
+    font-weight: bolder;
+    margin-left: 70px;
+    line-height: 40px;
+}
+.namaSekolah p {
+    margin-top: 0;
+    font-weight: bold;
+    margin-left: -60px;
+    line-height: 18px;
+}
+
+.namaSekolah a {
+    font-weight: 400;
+}
+
+
+.experienceContainer {
+    margin-top: -300px;
+    margin-left: 596px;
+    margin-bottom: 50px;
+    background: #EDE5D8;
+    width: 530px;
+    height: 360px;
+}
+
+.judulSkills {
+    display: flex;
+    z-index: 1;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 130px;
+    color: #201A0C;
+}
+
+.btnDownload {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 24px;
+    font-weight: bold;
+    width: 17%;
+    height: 50px;
+    border: none;
+    margin-left: -14px;
+    margin-top: -120px;
+    border-radius: 0 20px 20px 0;
+    text-decoration: none;
+}
+
+.btnDownload:hover {
+    color: black;
+}
+
+.skills{
+    font-size: 35px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    background-color: #F25B32;
+    height: 50px;
+    width: 250px;
+    margin-left: 220px;
+    margin-top: -240px;
+    z-index: 1;
+}
+
+.icons {
+    z-index: 2;
+    height: 200px;
+    background: #EDE5D8;
+    margin-left: 30px;
+    margin-top: 50px;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr); 
+    justify-items: center;
+}
+
+.icons img {
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease; 
+}
+
+.icons img:hover {
+    transform: scale(2.1); 
+}
+
+/* halaman 4 */
+.halEmpat{
+    background: #EDE5D8;
+}
+
+.aboutEmpat, .resumeEmpat, .workEmpat {
+    cursor: pointer;
+}
+
+.navbar .logoEmpat {
+    color: #1E180A;
+    font-size: 24px;
+    padding: 10px;
+    margin-right: 350px; 
+    width: 120px;
+    font-weight: bold;
+    margin-left: 30px;
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar .aboutEmpat {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -180px;
+    font-weight: 100;
+}
+
+.navbar .resumeEmpat {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+
+}
+
+.navbar .workEmpat {
+    color: #1E180A;
+    font-size: 20px;
+    margin-right: -100px;
+    font-weight: 100px;
+    font-weight: bold;
+}  
+
+.navbar .btnGetInTouch {
+    margin-top: -15px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 60px;
+    width: 30%;
+    border: none;
+    margin-right: 30px;
+}
+
+.content4 {
+    height: 620px;
+    position: relative;
+    background-color: #EDE5D8;
+}
+
+.isiContent4 {
+    display: flex;
+    margin-top: 0px;
+}
+
+.myLatest {
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 100px;
+    color: #201A0C;
+    font-family: 'Playfair Display', serif;
+}
+
+.btnPhotography {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin-left: 600px;
+    margin-right: 50px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.btnWebDev {
+    background-color: transparent;
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    cursor: pointer;
+}
+
+.btnWebDev.active {
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-weight: bolder;
+}
+
+.btnPhotography.active {
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-weight: bolder;
+}
+
+
+.photography {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    /* display: none; */
+}
+
+.webDev {
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+    display: none;
+}
+
+.card {
+    position: relative;
+    width: 200px;
+    height: 300px;
+    margin-left: 50px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    font-family: 'Playfair Display', serif;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* untuk menjaga aspek ratio */
+    transition: transform 0.3s;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.1); /* memperbesar foto saat hover */
+}
+
+.card-overlay {
+    margin-top: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 120%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+    transform: translate(-50%, -70%); /* geser ke atas saat hover */
+}
+
+.card-overlay h5,
+.card-overlay p {
+    margin-top: 120px;
+    color: white;
+}
+
+.card-overlay a {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    text-decoration: none;
+}
+
+.card-overlay a:hover {
+    background-color: #201A0C;
+    color: white;
+    text-decoration: none;
+}
+
+.btnGoDown {
+    margin-left: 50px;
+    margin-top: 104px;
+    background-color: #EEAA15;
+    color: #201A0C;
+    font-size: 20px;
+    font-weight: bold;
+    width: 11%;
+    border: none;
+}
